@@ -1,6 +1,8 @@
 package de.idvk.aufbaukursjava.datenbank;
 
 
+import de.idvk.aufbaukursjava.datenbank.entity.Film;
+import de.idvk.aufbaukursjava.datenbank.entity.Regie;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
@@ -16,7 +18,7 @@ import java.util.Random;
 import static org.junit.jupiter.api.Assertions.*;
 
 public class FilmDatenbankTest {
-    private static String url = "jdbc:sqlite:/home/bk051934/Projects/Aufbaukurs_Java/FilmDatenbankTest.sqlite";
+    private static String url = "jdbc:sqlite:";
     private static Datenbank db;
 
     @BeforeAll

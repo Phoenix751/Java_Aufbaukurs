@@ -1,8 +1,7 @@
 package de.idvk.aufbaukursjava.restauranteins;
 
-//Vorgabe für UI. UI immer vorgeben?
 public class Restaurant {
-    /*private static String name="Mein Restaurant";
+    private static String name = "Mein Restaurant";
     private static Gast gast;
     private static final Gericht[] speisekarte =
             {
@@ -42,7 +41,7 @@ public class Restaurant {
     private static void init() {
         System.out.println("Willkommen in "+name);
         gast = new Gast("Fat Mike");
-    }*/
+    }
 
 
 }
